@@ -1,17 +1,12 @@
 package algorithm;
 
-import java.util.Arrays;
+import static algorithm.Main.swap;
 
 /**
  * 冒泡排序 时间复杂度：O(n^2)
  * */
-public class Bubble {
+public class bubble {
 
-    public static void main(String[] args) {
-        int[] array = {46545,1,2,5,6,74,7,45,456};
-        BubbleSort(array);
-        Arrays.stream(array).forEach(System.out::println);
-    }
 
     public static void BubbleSort(int[] array){
 
@@ -27,12 +22,6 @@ public class Bubble {
             }
         }
 
-    }
-
-    private static void swap(int[] array, int firstNumber, int secondNumber) {
-        int tmp = array[firstNumber];
-        array[firstNumber] = array[secondNumber];
-        array[secondNumber] = tmp;
     }
 
 }
