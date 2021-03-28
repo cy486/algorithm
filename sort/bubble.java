@@ -1,6 +1,6 @@
-package algorithm;
+package algorithm.sort;
 
-import static algorithm.Main.swap;
+import static algorithm.sort.Main.swap;
 
 /**
  * 冒泡排序 时间复杂度：O(n^2)

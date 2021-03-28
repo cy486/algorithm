@@ -1,6 +1,6 @@
-package algorithm;
+package algorithm.sort;
 
-import static algorithm.Main.swap;
+import static algorithm.sort.Main.swap;
 
 /**
  * 选择排序：O(n^2)
