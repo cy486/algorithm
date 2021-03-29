@@ -10,7 +10,8 @@ public class Main {
         //bubble.BubbleSort(array);
         //select.selectSort(array);
         //insert.insetSort(array);
-        merge.mergeSort(array);
+        //merge.mergeSort(array);
+        quick.quickSort(array);
         Arrays.stream(array).forEach(System.out::println);
     }
 
